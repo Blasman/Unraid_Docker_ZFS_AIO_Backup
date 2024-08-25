@@ -64,9 +64,8 @@ TARFILE_DATASET_PATH="pool_ssds/backup_plex_tarfiles"  # If saving tarfiles to a
 HOURS_TO_KEEP_TARFILES_FOR="335"  # Delete backups older than this many hours. [Hours=Days|72=3|96=4|120=5|144=6|168=7|336=14|720=30] Tip: subtract one hour if desired to ensure oldest backup is always deleted.
 # Specify full paths to any files/folders (do *NOT* use '/mnt/user', use pool dir instead ie '/mnt/pool_name') to add to the tarfile (nothing is included by default).
 TARFILE_INCLUDES=(  # <APPDATA_DIR> will be replaced with the folder path to your pool's docker container's appdata folder.
-    "<APPDATA_DIR>/Library/Application Support/Plex Media Server/Logs"
-    "<APPDATA_DIR>/Library/Application Support/Plex Media Server/Scanners"
-    "<APPDATA_DIR>/Library/Application Support/Plex Media Server/Logs"
+    "<APPDATA_DIR>/Library/Application Support/Plex Media Server/Media"
+    "<APPDATA_DIR>/Library/Application Support/Plex Media Server/Metadata"
 )
 # ------------------------ OPTIONAL TARFILE SETTINGS ------------------------- #
 TARFILE_COMPRESSION_LEVEL="1"  # Specify tarfile compression. "0" == none | "1" == GZIP | "2" or higher == ZSTD (number is the amount of CPU cores to use).
