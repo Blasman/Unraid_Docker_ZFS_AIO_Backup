@@ -16,7 +16,7 @@ Then, by creating a temporary clone of the snapshot from step 2 above, the scrip
 6. Optional: Tar files (ideal for Plex 'Media' and 'Metadata' folders).
 
 ## Installation (easiest way)
-1. Copy and paste the scripts [RAW text](placeholder) as a new custom user script in Unraid's [CA User Scripts plugin](https://forums.unraid.net/topic/48286-plugin-ca-user-scripts/).
+1. Copy and paste the scripts [RAW text](https://raw.githubusercontent.com/Blasman/Unraid_Docker_ZFS_AIO_Backup/main/docker_ZFS_AIO_backup.sh) as a new custom user script in Unraid's [CA User Scripts plugin](https://forums.unraid.net/topic/48286-plugin-ca-user-scripts/).
    
 2. Edit all the required/desired sections in the 'user config' at the top of the script and then save the changes. Carefully read all the comments there as every option is explained.
    
